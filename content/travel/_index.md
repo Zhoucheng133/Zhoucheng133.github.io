@@ -2,6 +2,13 @@
 title: 游记
 ---
 
+## 🇨🇳 中国
+
+{{< cards >}}
+  {{< card link="/travel/hongkong" title="🇭🇰 香港">}}
+  {{< card link="/travel/macao" title="🇲🇴 澳门">}}
+{{< /cards >}}
+
 ## 🇯🇵 日本
 
 {{< cards >}}
