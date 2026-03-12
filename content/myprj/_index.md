@@ -20,7 +20,7 @@
       <td><a href="https://github.com/Zhoucheng133/netPlayer-Next">App</a></td>
       <td rowspan="2">Flutter</td>
       <td rowspan="2"><img draggable=false src="assets/platform/d.png" width=30 style="width: 30px" /></td>
-      <td rowspan="3">Subsonic & Navidrome based desktop music player</td>
+      <td rowspan="3">Subsonic & Navidrome based Music Player</td>
     </tr>
     <tr>
       <td><del><a href="https://github.com/Zhoucheng133/netPlayer-mini-kit">Lyric Kit</a></del></td>
@@ -38,7 +38,7 @@
       <td><a href="https://github.com/Zhoucheng133/Sharer-App">App</a></td>
       <td>Flutter</td>
       <td rowspan="3"><img draggable=false src="assets/platform/d.png" width=30 style="width: 30px" /></td>
-      <td rowspan="3">File sharing tool</td>
+      <td rowspan="3">File Sharing Tool</td>
     </tr>
     <tr>
       <td><a href="https://github.com/Zhoucheng133/Sharer-Core">Core</a></td>
@@ -88,7 +88,7 @@
       <td><a href="https://github.com/Zhoucheng133/Gamma-Setter">App</a></td>
       <td>Flutter</td>
       <td rowspan="2"><img draggable=false src="assets/platform/d.png" width=30 style="width: 30px" /></td>
-      <td rowspan="2">Adjust monitor's gamma tool</td>
+      <td rowspan="2">Monitor's Gamma Adjust Tool</td>
     </tr>
     <tr>
       <td><a href="https://github.com/Zhoucheng133/Gamma-Setter-Core">Core</a></td>
@@ -101,7 +101,7 @@
       <td><a href="https://github.com/Zhoucheng133/toWebp">App</a></td>
       <td>Tauri</td>
       <td rowspan="2"><img draggable=false src="assets/platform/d.png" width=30 style="width: 30px" /></td>
-      <td rowspan="2">Convert image to webp tool</td>
+      <td rowspan="2">Convert Image to Webp Tool</td>
     </tr>
     <tr>
       <td><a href="https://github.com/Zhoucheng133/toWebp-Core">Core</a></td>
@@ -113,7 +113,7 @@
       <td>/</td>
       <td>Flutter</td>
       <td><img draggable=false src="assets/platform/m.png" width=30 style="width: 30px" /></td>
-      <td>Loop an audio for mobile</td>
+      <td>Loop an Audio</td>
     </tr>
     <tr>
       <td><img draggable=false src="assets/deface.svg" width=50 style="width: 50px" /></td>
@@ -121,7 +121,7 @@
       <td>/</td>
       <td>Tauri</td>
       <td><img draggable=false src="assets/platform/d.png" width=30 style="width: 30px" /></td>
-      <td>Deface GUI helper</td>
+      <td>Deface GUI Helper</td>
     </tr>
     <tr>
       <td><img draggable=false src="assets/whisper.svg" width=50 style="width: 50px" /></td>
@@ -129,7 +129,7 @@
       <td>/</td>
       <td>Flutter</td>
       <td><img draggable=false src="assets/platform/d.png" width=30 style="width: 30px" /></td>
-      <td>Whisper GUI helper</td>
+      <td>Whisper GUI Helper</td>
     </tr>
     <tr>
       <td rowspan="2"><img draggable=false src="assets/photo_archiver.svg" width=50 style="width: 50px" /></td>
@@ -137,7 +137,7 @@
       <td><a href="https://github.com/Zhoucheng133/Photo-Archiver">App</a></td>
       <td>Flutter</td>
       <td rowspan="2"><img draggable=false src="assets/platform/d.png" width=30 style="width: 30px" /></td>
-      <td rowspan="2">Make photos grouped by datetime</td>
+      <td rowspan="2">Make Photos Grouped by Datetime</td>
     </tr>
     <tr>
       <td><a href="https://github.com/Zhoucheng133/PhotoArchiver-Core">Core</a></td>
@@ -149,7 +149,7 @@
       <td><a href="https://github.com/Zhoucheng133/GitPack">App</a></td>
       <td>Flutter</td>
       <td rowspan="2"><img draggable=false src="assets/platform/d.png" width=30 style="width: 30px" /></td>
-      <td rowspan="2">Pack git repo without ignores</td>
+      <td rowspan="2">Pack Git Repo Without Ignores</td>
     </tr>
     <tr>
       <td><a href="https://github.com/Zhoucheng133/GitPack-Core">Core</a></td>
@@ -161,7 +161,7 @@
       <td><a href="https://github.com/Zhoucheng133/EXIF-Helper">App</a></td>
       <td>Flutter</td>
       <td rowspan="2"><img draggable=false src="assets/platform/d.png" width=30 style="width: 30px" /></td>
-      <td rowspan="2">EXIF ​​watermark adding tool</td>
+      <td rowspan="2">EXIF ​​Watermark Adding Tool</td>
     </tr>
     <tr>
       <td><a href="https://github.com/Zhoucheng133/EXIF-Helper-Core">Core</a></td>
@@ -173,7 +173,7 @@
       <td><a href="https://github.com/Zhoucheng133/HEIC-Converter">App</a></td>
       <td>Tauri</td>
       <td rowspan="2"><img draggable=false src="assets/platform/d.png" width=30 style="width: 30px" /></td>
-      <td rowspan="2">HEIC & HEIF convert tool</td>
+      <td rowspan="2">HEIC & HEIF Convert Tool</td>
     </tr>
     <tr>
       <td><a href="https://github.com/Zhoucheng133/HEIC-Converter-Core">Core</a></td>
@@ -185,7 +185,7 @@
       <td>/</td>
       <td>Flutter</td>
       <td><img draggable=false src="assets/platform/d.png" width=30 style="width: 30px" /></td>
-      <td>Multi subtitles burning tool</td>
+      <td>Multi Subtitles Burning Tool</td>
     </tr>
     <tr>
       <td><img draggable=false src="assets/pyftp.png" width=50 style="width: 50px" /></td>
@@ -193,7 +193,7 @@
       <td>/</td>
       <td>Flutter</td>
       <td><img draggable=false src="assets/platform/d.png" width=30 style="width: 30px" /></td>
-      <td>pyftpdlib GUI helper</td>
+      <td>pyftpdlib GUI Helper</td>
     </tr>
     <tr>
       <td><img draggable=false src="assets/ffmpeg.svg" width=50 style="width: 50px" /></td>
@@ -201,7 +201,7 @@
       <td>/</td>
       <td>Flutter</td>
       <td><img draggable=false src="assets/platform/d.png" width=30 style="width: 30px" /></td>
-      <td>FFmpeg GUI helper</td>
+      <td>FFmpeg GUI Helper</td>
     </tr>
     <tr>
       <td><img draggable=false src="assets/easychat.svg" width=50 style="width: 50px" /></td>
@@ -262,7 +262,7 @@
       <td rowspan="2"><a href="https://github.com/Zhoucheng133/Anime-Helper">Anime Helper</a></td>
       <td><a href="https://github.com/Zhoucheng133/Anime-Helper">Server</a></td>
       <td>ElysiaJS</td>
-      <td rowspan="2">Animation follow & download tool</td>
+      <td rowspan="2">Animation Follow & Download Tool</td>
     </tr>
     <tr>
       <td><a href="https://github.com/Zhoucheng133/Anime-Helper-UI">WebUI</a></td>
@@ -273,7 +273,7 @@
       <td rowspan="2"><a href="https://github.com/Zhoucheng133/Jackett-Helper">Jackett Helper</a></td>
       <td><a href="https://github.com/Zhoucheng133/Jackett-Helper">Server</a></td>
       <td>ElysiaJS</td>
-      <td rowspan="2">Add task to aria from Jackett</td>
+      <td rowspan="2">Add Task to Aria from Jackett</td>
     </tr>
     <tr>
       <td><a href="https://github.com/Zhoucheng133/Jackett-Helper-Web">WebUI</a></td>
@@ -295,7 +295,7 @@
       <td rowspan="2"><a href="https://github.com/Zhoucheng133/SHT-Viz">SHT Viz</a></td>
       <td><a href="https://github.com/Zhoucheng133/SHT-Viz">Server</a></td>
       <td>FastAPI</td>
-      <td rowspan="2">SHT-based environmental monitoring system</td>
+      <td rowspan="2">SHT-based Environmental Monitoring System</td>
     </tr>
     <tr>
       <td><a href="https://github.com/Zhoucheng133/SHT-Viz-Web">WebUI</a></td>
@@ -306,7 +306,7 @@
       <td rowspan="2"><a href="https://github.com/Zhoucheng133/Monitor">Monitor</a></td>
       <td><a href="https://github.com/Zhoucheng133/Monitor">Server</a></td>
       <td>Spring (Kotlin)</td>
-      <td rowspan="2">System monitor page</td>
+      <td rowspan="2">System Monitor Page</td>
     </tr>
     <tr>
       <td><a href="https://github.com/Zhoucheng133/Monitor-UI">WebUI</a></td>
@@ -339,12 +339,12 @@
     <tr>
       <td><a href="https://github.com/Zhoucheng133/Aria-Linker">Aria Linker</a></td>
       <td>JavaScript</td>
-      <td>Tampermonkey script that add task to aria</td>
+      <td>Tampermonkey Script that Add Task to Aria</td>
     </tr>
     <tr>
       <td><a href="https://github.com/Zhoucheng133/qBit-Linker">qBit Linker</a></td>
       <td>JavaScript</td>
-      <td>Tampermonkey script that add task to qBit</td>
+      <td>Tampermonkey Script that Add Task to qBit</td>
     </tr>
     <tr>
       <td><a href="https://github.com/Zhoucheng133/Live-BG">LiveBG</a></td>
