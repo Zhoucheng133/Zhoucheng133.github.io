@@ -284,7 +284,7 @@
       <td rowspan="2"><a href="https://github.com/Zhoucheng133/Index-Page">Index Page</a></td>
       <td><a href="https://github.com/Zhoucheng133/Index-Page-Core">Server</a></td>
       <td>Gin</td>
-      <td rowspan="2">Server Index page</td>
+      <td rowspan="2">Server index page</td>
     </tr>
     <tr>
       <td><a href="https://github.com/Zhoucheng133/Index-Page">WebUI</a></td>
@@ -292,13 +292,13 @@
     </tr>
     <tr>
       <td rowspan="2">/</td>
-      <td rowspan="2"><a href="https://github.com/Zhoucheng133/SHT-API">SHT API</a></td>
-      <td><a href="https://github.com/Zhoucheng133/SHT-API">Server</a></td>
+      <td rowspan="2"><a href="https://github.com/Zhoucheng133/SHT-Viz">SHT Viz</a></td>
+      <td><a href="https://github.com/Zhoucheng133/SHT-Viz">Server</a></td>
       <td>FastAPI</td>
-      <td rowspan="2">SHT sensor monitor</td>
+      <td rowspan="2">SHT-based environmental monitoring system</td>
     </tr>
     <tr>
-      <td><a href="https://github.com/Zhoucheng133/SHT-Data-Statistics">WebUI</a></td>
+      <td><a href="https://github.com/Zhoucheng133/SHT-Viz-Web">WebUI</a></td>
       <td>Vue</td>
     </tr>
     <tr>
