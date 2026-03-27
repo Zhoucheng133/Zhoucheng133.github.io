@@ -280,6 +280,17 @@
       <td>Vue</td>
     </tr>
     <tr>
+      <td rowspan="2"><img draggable=false src="assets/sht.svg" width=50 style="width: 50px" /></td>
+      <td rowspan="2"><a href="https://github.com/Zhoucheng133/SHT-Viz">SHT Viz</a></td>
+      <td><a href="https://github.com/Zhoucheng133/SHT-Viz">Server</a></td>
+      <td>FastAPI</td>
+      <td rowspan="2">SHT-based Environmental Monitoring System</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Zhoucheng133/SHT-Viz-Web">WebUI</a></td>
+      <td>Vue</td>
+    </tr>
+    <tr>
       <td rowspan="2">/</td>
       <td rowspan="2"><a href="https://github.com/Zhoucheng133/Index-Page">Index Page</a></td>
       <td><a href="https://github.com/Zhoucheng133/Index-Page-Core">Server</a></td>
@@ -288,17 +299,6 @@
     </tr>
     <tr>
       <td><a href="https://github.com/Zhoucheng133/Index-Page">WebUI</a></td>
-      <td>Vue</td>
-    </tr>
-    <tr>
-      <td rowspan="2">/</td>
-      <td rowspan="2"><a href="https://github.com/Zhoucheng133/SHT-Viz">SHT Viz</a></td>
-      <td><a href="https://github.com/Zhoucheng133/SHT-Viz">Server</a></td>
-      <td>FastAPI</td>
-      <td rowspan="2">SHT-based Environmental Monitoring System</td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Zhoucheng133/SHT-Viz-Web">WebUI</a></td>
       <td>Vue</td>
     </tr>
     <tr>
