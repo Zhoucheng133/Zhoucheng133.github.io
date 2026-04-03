@@ -83,6 +83,14 @@
       <td>Rust</td>
     </tr>
     <tr>
+      <td><img draggable=false src="assets/musicdl.svg" width=50 style="width: 50px" /></td>
+      <td><a href="https://github.com/Zhoucheng133/musicdl-GUI">MusicDL GUI</a></td>
+      <td>/</td>
+      <td>PyQt</td>
+      <td><img draggable=false src="assets/platform/d.png" width=30 style="width: 30px" /></td>
+      <td>Music Download Tool</td>
+    </tr>
+    <tr>
       <td rowspan="2"><img draggable=false src="assets/gamma.svg" width=50 style="width: 50px" /></td>
       <td rowspan="2"><a href="https://github.com/Zhoucheng133/Gamma-Setter">Gamma Setter</a></td>
       <td><a href="https://github.com/Zhoucheng133/Gamma-Setter">App</a></td>
