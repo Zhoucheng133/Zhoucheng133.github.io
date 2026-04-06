@@ -5,7 +5,7 @@
 <table style="text-align: left">
   <thead>
     <tr>
-      <th>Icon</th>
+      <th style="text-align: center;">Icon</th>
       <th>Name</th>
       <th>Components</th>
       <th>Framework</th>
@@ -244,11 +244,19 @@
     </tr>
     <tr>
       <td><img draggable=false src="assets/aup.svg" width=50 style="width: 50px" /></td>
-      <td> <a href="https://github.com/Zhoucheng133/Anime-Update-Panel"><del>Anime Update Panel</del></a></td>
+      <td><a href="https://github.com/Zhoucheng133/Anime-Update-Panel"><del>Anime Update Panel</del></a></td>
       <td>/</td>
       <td>Flutter</td>
       <td><img draggable=false src="assets/platform/d.png" width=30 style="width: 30px" /></td>
       <td>[Merge to Anime Helper]</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">/</td>
+      <td><a href="https://github.com/Zhoucheng133/CuteHttpFileServer-GUI"><del>CHFS-GUI</del></a></td>
+      <td>/</td>
+      <td>Flutter</td>
+      <td><img draggable=false src="assets/platform/d.png" width=30 style="width: 30px" /></td>
+      <td>[Split to Sharer and DAV Server]</td>
     </tr>
   </tbody>
 </table>
@@ -257,7 +265,7 @@
 <table style="text-align: left">
   <thead>
     <tr>
-      <th>Icon</th>
+      <th style="text-align: center;">Icon</th>
       <th>Name</th>
       <th>Components</th>
       <th>Framework</th>
@@ -299,18 +307,18 @@
       <td>Vue</td>
     </tr>
     <tr>
-      <td rowspan="2">/</td>
+      <td rowspan="2" style="text-align: center;">/</td>
       <td rowspan="2"><a href="https://github.com/Zhoucheng133/Index-Page">Index Page</a></td>
       <td><a href="https://github.com/Zhoucheng133/Index-Page-Core">Server</a></td>
       <td>Gin</td>
-      <td rowspan="2">Server index page</td>
+      <td rowspan="2">Server Index Page</td>
     </tr>
     <tr>
       <td><a href="https://github.com/Zhoucheng133/Index-Page">WebUI</a></td>
       <td>Vue</td>
     </tr>
     <tr>
-      <td rowspan="2">/</td>
+      <td rowspan="2" style="text-align: center;">/</td>
       <td rowspan="2"><a href="https://github.com/Zhoucheng133/Monitor">Monitor</a></td>
       <td><a href="https://github.com/Zhoucheng133/Monitor">Server</a></td>
       <td>Spring (Kotlin)</td>
@@ -321,7 +329,7 @@
       <td>Vue</td>
     </tr>
     <tr>
-      <td rowspan="2">/</td>
+      <td rowspan="2" style="text-align: center;">/</td>
       <td rowspan="2"><del><a href="https://github.com/Zhoucheng133/Mikan-Helper">Mikan Helper</a></del></td>
       <td><del><a href="https://github.com/Zhoucheng133/Mikan-Helper">Server</a></del></td>
       <td>Flask</td>
@@ -357,12 +365,12 @@
     <tr>
       <td><a href="https://github.com/Zhoucheng133/Live-BG">LiveBG</a></td>
       <td>Gin & Vue</td>
-      <td>netPlayer obs live background</td>
+      <td>netPlayer OBS Live Background</td>
     </tr>
     <tr>
-      <td><a href="https://github.com/Zhoucheng133/DAV-with-Docker">DAV with Docker </a></td>
-      <td>DAV with Docker</td>
-      <td>Deploy WebDAV server with Docker</td>
+      <td><a href="https://github.com/Zhoucheng133/DAV-with-Docker">DAV with Docker</a></td>
+      <td>Go</td>
+      <td>Deploy WebDAV Server with Docker</td>
     </tr>
   </tbody>
 </table>
