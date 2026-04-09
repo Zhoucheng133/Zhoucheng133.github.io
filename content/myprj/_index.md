@@ -58,7 +58,7 @@
     </tr>
     <tr>
       <td><a href="https://github.com/Zhoucheng133/DAV-Core">Core</a></td>
-      <td>Gin</td>
+      <td>Go</td>
     </tr>
     <tr>
       <td><img draggable=false src="assets/bitflow.png" width=50 style="width: 50px" /></td>
