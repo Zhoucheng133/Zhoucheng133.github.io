@@ -124,6 +124,14 @@
       <td>Loop an Audio</td>
     </tr>
     <tr>
+      <td><img draggable=false src="assets/tracker.svg" width=50 style="width: 50px" /></td>
+      <td><a href="https://github.com/Zhoucheng133/GPS-Tracker">GPS Tracker</a></td>
+      <td>/</td>
+      <td>Flutter</td>
+      <td><img draggable=false src="assets/platform/m.png" width=30 style="width: 30px" /></td>
+      <td>A GPS Tool</td>
+    </tr>
+    <tr>
       <td><img draggable=false src="assets/deface.svg" width=50 style="width: 50px" /></td>
       <td><a href="https://github.com/Zhoucheng133/Deface-GUI">Deface GUI</a></td>
       <td>/</td>
