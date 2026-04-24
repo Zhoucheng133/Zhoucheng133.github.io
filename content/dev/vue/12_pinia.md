@@ -86,9 +86,9 @@ createApp(App).use(pinia).mount('#app')
 
 ## 使用Pinia
 
-需要新建一个`store`文件，用于存放状态，比如
+需要新建一个`store`文件，用于存放状态（语法糖）：
+
 ```ts
-// src/stores/main.ts
 import { defineStore } from "pinia";
 import { ref } from "vue";
 export default defineStore("main", ()=>{
@@ -97,7 +97,9 @@ export default defineStore("main", ()=>{
 })
 ```
 
-完整的写法如下：
+<details>
+<summary>完整的写法</summary>
+
 ```ts
 import { defineStore } from "pinia";
 export default defineStore("main", {
@@ -121,6 +123,8 @@ export default defineStore("main", {
   }
 })
 ```
+
+</details>
 
 在页面中使用时
 
@@ -149,7 +153,6 @@ const add=()=>{
 ```
 
 也可以这么使用
-
 
 ```html
 <!-- App.vue -->
