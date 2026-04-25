@@ -84,7 +84,7 @@
     </tr>
     <tr>
       <td><img draggable=false src="assets/musicdl.svg" width=50 style="width: 50px" /></td>
-      <td><a href="https://github.com/Zhoucheng133/musicdl-GUI">MusicDL GUI</a></td>
+      <td><a href="https://github.com/Zhoucheng133/MusicDL-PyQt">MusicDL GUI</a></td>
       <td>/</td>
       <td>PyQt</td>
       <td><img draggable=false src="assets/platform/d.png" width=30 style="width: 30px" /></td>
