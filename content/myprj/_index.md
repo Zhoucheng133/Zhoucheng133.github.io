@@ -15,7 +15,7 @@
   </thead>
   <tbody>
     <tr>
-      <td rowspan="2"><img draggable=false src="assets/netplayer.svg" width=50 style="width: 50px" /></td>
+      <td rowspan="3"><img draggable=false src="assets/netplayer.svg" width=50 style="width: 50px" /></td>
       <td rowspan="2"><a href="https://github.com/Zhoucheng133/netPlayer-Next">netPlayer</a></td>
       <td><a href="https://github.com/Zhoucheng133/netPlayer-Next">App</a></td>
       <td rowspan="2">Flutter</td>
@@ -26,7 +26,6 @@
       <td><del><a href="https://github.com/Zhoucheng133/netPlayer-mini-kit">Lyric Kit</a></del></td>
     </tr>
     <tr>
-      <td><img draggable=false src="assets/netplayer.svg" width=50 style="width: 50px" /></td>
       <td><a href="https://github.com/Zhoucheng133/netPlayer-Mobile">netPlayer Mobile</a></td>
       <td>/</td>
       <td>Flutter</td>
@@ -83,12 +82,22 @@
       <td>Rust</td>
     </tr>
     <tr>
-      <td><img draggable=false src="assets/musicdl.svg" width=50 style="width: 50px" /></td>
-      <td><a href="https://github.com/Zhoucheng133/MusicDL-PyQt">MusicDL GUI</a></td>
+      <td rowspan="3"><img draggable=false src="assets/musicdl.svg" width=50 style="width: 50px" /></td>
+      <td><a href="https://github.com/Zhoucheng133/MusicDL-PyQt">MusicDL GUI<br/>(PyQt ver.)</a></td>
       <td>/</td>
       <td>PyQt</td>
       <td><img draggable=false src="assets/platform/d.png" width=30 style="width: 30px" /></td>
-      <td>Music Download Tool</td>
+      <td rowspan="3">Music Download Tool</td>
+    </tr>
+    <tr>
+      <td rowspan="2"><a href="https://github.com/Zhoucheng133/MusicDL-PyQt">MusicDL GUI<br/>(Tauri ver.)</a></td>
+      <td>App</td>
+      <td>Tauri</td>
+      <td rowspan="2"><img draggable=false src="assets/platform/d.png" width=30 style="width: 30px" /></td>
+    </tr>
+    <tr>
+      <td>Core</td>
+      <td>Python</td>
     </tr>
     <tr>
       <td rowspan="2"><img draggable=false src="assets/gamma.svg" width=50 style="width: 50px" /></td>
