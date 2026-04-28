@@ -90,13 +90,13 @@
       <td rowspan="3">Music Download Tool</td>
     </tr>
     <tr>
-      <td rowspan="2"><a href="https://github.com/Zhoucheng133/MusicDL-PyQt">MusicDL GUI<br/>(Tauri ver.)</a></td>
-      <td>App</td>
+      <td rowspan="2"><a href="https://github.com/Zhoucheng133/MusicDL-GUI">MusicDL GUI<br/>(Tauri ver.)</a></td>
+      <td><a href="https://github.com/Zhoucheng133/MusicDL-GUI">App</a></td>
       <td>Tauri</td>
       <td rowspan="2"><img draggable=false src="assets/platform/d.png" width=30 style="width: 30px" /></td>
     </tr>
     <tr>
-      <td>Core</td>
+      <td><a href="https://github.com/Zhoucheng133/MusicDL-Core">Core</a></td>
       <td>Python</td>
     </tr>
     <tr>
