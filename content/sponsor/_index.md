@@ -1,4 +1,9 @@
-# Sponsor | 赞助
+---
+title: Sponsor | 赞助
+aliases:
+- /donate
+- /donate/
+---
 
 ## Credit Card | 信用卡
 

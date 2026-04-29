@@ -1,5 +1,5 @@
 ---
-title: 游记
+title: Travels | 游记
 ---
 
 ## 🇨🇳 中国
