@@ -1,4 +1,4 @@
-# Donate | 赞助
+# Sponsor | 赞助
 
 ## Credit Card | 信用卡
 
