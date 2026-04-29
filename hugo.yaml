@@ -65,15 +65,18 @@ menu:
     - name: 游记
       pageRef: /travel
       weight: 3
+    - name: 赞助
+      url: /donate
+      weight: 4
     - name: 欢迎页 ↗
       url: "https://z-server.top"
-      weight: 4
-    - name: Search
       weight: 5
+    - name: Search
+      weight: 6
       params:
         type: search
     - name: GitHub
-      weight: 6
+      weight: 7
       url: "https://github.com/Zhoucheng133"
       params:
         icon: github
