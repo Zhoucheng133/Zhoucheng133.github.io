@@ -3,7 +3,7 @@ title: "获取DOM元素"
 weight: 9
 type: docs
 ---
-```html
+```vue
 <template>
   <div>
     <button @click="logElement">Log Element</button>

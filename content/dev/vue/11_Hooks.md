@@ -5,8 +5,7 @@ type: docs
 ---
 可以使用外部的TypeScript或者JavaScript
 
-```html
-<!-- App.vue -->
+```vue
 <template>
   <div>
     {{ num }}

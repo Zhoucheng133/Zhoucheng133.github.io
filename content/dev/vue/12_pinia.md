@@ -7,8 +7,7 @@ type: docs
 
 Pinia是一个状态管理器，其效果类似于Vue3的`Hook`，但是与`Hook`不同的是，如果不同的Vue文件调用一个`Hook`文件，那么其会存在不同的变量，例如：
 
-```html
-<!-- App.vue -->
+```vue
 <template>
   <div>
     {{ num }}
@@ -44,8 +43,7 @@ export default function(){
 
 在另外一个vue文件中同样调用useAdd这个文件时
 
-```html
-<!-- ChildView.vue -->
+```vue
 <template>
   <div>
     {{ num }}
@@ -128,8 +126,7 @@ export default defineStore("main", {
 
 在页面中使用时
 
-```html
-<!-- App.vue -->
+```vue
 <template>
   <div>
     {{ mainStore.count }}
@@ -154,8 +151,7 @@ const add=()=>{
 
 也可以这么使用
 
-```html
-<!-- App.vue -->
+```vue
 <template>
   <div>
     {{ count }}
