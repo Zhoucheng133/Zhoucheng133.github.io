@@ -25,6 +25,9 @@ export const textAtom = atom('Hello Jotai');
 
 ### 在Hook内使用
 
+> [!NOTE]
+> 不可以在Hook外使用
+
 ```tsx
 import React from 'react';
 import { useAtom } from 'jotai';
@@ -44,6 +47,9 @@ export function Counter() {
 ```
 
 ### 在Hook外使用
+
+> [!NOTE]
+> 可以在Hook内使用，前提是这个变量必须使用`useAtom`或者`useAtomValue`定义
 
 ```tsx
 import { getDefaultStore } from 'jotai';
