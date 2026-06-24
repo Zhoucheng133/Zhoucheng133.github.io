@@ -34,12 +34,26 @@ title: My Projects | 开发的项目
       <td><img draggable=false src="assets/platform/m.png" width=30 style="width: 30px" /></td>
     </tr>
     <tr>
-      <td rowspan="3"><img draggable=false src="assets/sharer.svg" width=50 style="width: 50px" /></td>
+      <td rowspan="6"><img draggable=false src="assets/sharer.svg" width=50 style="width: 50px" /></td>
       <td rowspan="3"><a href="https://github.com/Zhoucheng133/Sharer-App">Sharer</a></td>
       <td><a href="https://github.com/Zhoucheng133/Sharer-App">App</a></td>
       <td>Flutter</td>
       <td rowspan="3"><img draggable=false src="assets/platform/d.png" width=30 style="width: 30px" /></td>
-      <td rowspan="3">File Sharing Tool</td>
+      <td rowspan="6">File Sharing Tool</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Zhoucheng133/Sharer-Core">Core</a></td>
+      <td>Gin</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Zhoucheng133/Sharer-Web">WebUI</a></td>
+      <td>Vue</td>
+    </tr>
+    <tr>
+      <td rowspan="3"><a href="https://github.com/Zhoucheng133/Sharer-Mobile">Sharer Mobile</a></td>
+      <td><a href="https://github.com/Zhoucheng133/Sharer-Mobile">App</a></td>
+      <td>Flutter</td>
+      <td rowspan="3"><img draggable=false src="assets/platform/m.png" width=30 style="width: 30px" /></td>
     </tr>
     <tr>
       <td><a href="https://github.com/Zhoucheng133/Sharer-Core">Core</a></td>
