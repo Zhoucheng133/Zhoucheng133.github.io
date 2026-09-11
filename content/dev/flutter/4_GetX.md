@@ -292,6 +292,8 @@ Get.toNamed("/settings", id: 1);
 > [!IMPORTANT]
 > 你需要先前往[本地化](/dev/flutter/15_本地化/)文章中设置本地化
 
+### 基本使用
+
 首先需要创建语言的`Map`，例如这样
 ```dart
 // lang/zh_cn.dart
@@ -443,6 +445,24 @@ return Obx(()=>
     // 其它内容
   )
 );
+```
+
+### 含有变量的语言翻译
+
+使用`@`表示某个变量
+
+```dart
+// lang/zh_cn.dart
+const Map<String, String> zhCN = {
+  'totalPhotos': "共有 @count 张图片"
+  // 其它内容
+};
+```
+
+使用`.trParams`表示
+
+```dart
+return Text('totalPhotos'.trParams({'count': count }),)
 ```
 
 ## 全局Context
