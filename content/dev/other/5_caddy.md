@@ -88,4 +88,6 @@ sudo caddy add-package github.com/caddy-dns/alidns
 
 ```bash
 caddy reload
+# 或者
+sudo systemctl reload caddy
 ```
