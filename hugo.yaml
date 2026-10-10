@@ -58,18 +58,17 @@ menu:
       weight: 7
       pageRef: /dev/other
 
-    - name: 开发的项目
-      pageRef: /myprj
-      weight: 2
-
     - name: 游记
       pageRef: /travel
-      weight: 3
+      weight: 2
     - name: 赞助
       url: /sponsor
-      weight: 4
+      weight: 3
     - name: 欢迎页 ↗
       url: "https://zhouc1230.top"
+      weight: 4
+    - name: 开发的项目 ↗
+      url: "https://projects.zhouc1230.top"
       weight: 5
     - name: Search
       weight: 6
