@@ -9,6 +9,6 @@ toc: false
 
 {{< cards >}}
   {{< card link="dev" title="开发文档" icon="book-open" >}}
-  {{< card link="myprj" title="开发的项目" icon="code" >}}
+  {{< card link="https://projects.zhouc1230.top" title="开发的项目" icon="code" >}}
   {{< card link="travel" title="游记" icon="map" >}}
 {{< /cards >}}
