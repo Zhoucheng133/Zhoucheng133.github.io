@@ -61,13 +61,14 @@ jobs:
           SERVER_PASSWORD: ${{ secrets.SERVER_PASSWORD }}
           SERVER_PORT: ${{ secrets.SERVER_PORT }}
         run: |
-          sudo apt-get update
           sudo apt-get install -y lftp
 
-          lftp -u "$SERVER_USER","$SERVER_PASSWORD" \
-            "sftp://$SERVER_HOST:$SERVER_PORT" <<EOF
+          lftp <<EOF
+          set sftp:connect-program "ssh -a -x -p $SERVER_PORT"
           set sftp:auto-confirm yes
           set net:max-retries 2
+          open sftp://$SERVER_HOST
+          user "$SERVER_USER" "$SERVER_PASSWORD"
           mirror -R --delete --verbose ./public/ /pages/blog/
           bye
           EOF
