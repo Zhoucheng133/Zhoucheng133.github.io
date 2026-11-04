@@ -1,27 +1,13 @@
 ---
 title: "Caddy"
-weight: 5
+weight: 6
 type: docs
 ---
 相比`nginx`，Caddy配置更加简单，而且支持自动SSL
 
 ## 安装
 
-对于Debian、Ubuntu、Raspbian可以通过下面的命令安装
-
-```bash
-sudo apt install -y debian-keyring debian-archive-keyring apt-transport-https
-curl -1sLf 'https://dl.cloudsmith.io/public/caddy/stable/gpg.key' | sudo gpg --dearmor -o /usr/share/keyrings/caddy-stable-archive-keyring.gpg
-curl -1sLf 'https://dl.cloudsmith.io/public/caddy/stable/debian.deb.txt' | sudo tee /etc/apt/sources.list.d/caddy-stable.list
-sudo apt update
-sudo apt install caddy
-```
-
-可以通过下面的命令验证安装
-
-```bash
-caddy version
-```
+见[Caddy文档](https://caddyserver.com/docs/install)
 
 ## 使用
 

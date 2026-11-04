@@ -1,6 +1,6 @@
 ---
 title: "Frp"
-weight: 6
+weight: 7
 type: docs
 ---
 
@@ -71,6 +71,8 @@ type: docs
    localPort = 8123
    # 这是挂载到服务器的端口号，任意
    remotePort = 18123
+
+   #如果还有其他的配置，可以从[[proxy]]开始再写一个
    ```
 2. 运行frp客户端端容器
    ```bash

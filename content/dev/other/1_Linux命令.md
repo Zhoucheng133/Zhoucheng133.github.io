@@ -8,13 +8,13 @@ type: docs
 - IPv4地址
 
   ```bash
-  curl 4.ipw.cn
+  curl 4.wsmdn.top
   ```
 
 - IPv6地址
 
   ```bash
-  curl 6.ipw.cn
+  curl 6.wsmdn.top
   ```
 
 ## 搜索进程

@@ -16,6 +16,28 @@ export https_proxy=$http_proxy
 curl cip.cc
 ```
 
+### 代理脚本
+```zsh
+# 注意替换端口
+function proxy() {
+    if [[ "$1" == "on" ]]; then
+        export http_proxy="http://127.0.0.1:7890"
+        export https_proxy="http://127.0.0.1:7890"
+        export no_proxy="localhost,127.0.0.1"
+        echo "代理已打开"
+    elif [[ "$1" == "off" ]]; then
+        unset http_proxy
+        unset https_proxy
+        unset no_proxy
+        echo "代理已关闭"
+    else
+        echo "Usage: proxy {on|off}"
+    fi
+}
+
+alias proxy='proxy'
+```
+
 ## 查看IP地址
 
 - IPv4地址
