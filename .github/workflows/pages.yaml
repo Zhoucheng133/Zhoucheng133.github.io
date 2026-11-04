@@ -1,27 +1,20 @@
-# 构建并部署 Hugo 站点到 GitHub Pages 的示例工作流
 name: 部署 Hugo 站点到 Pages
 
 on:
-  # 针对默认分支的推送触发
   push:
     branches: ["main"]
 
-  # 允许从 Actions 标签手动运行
   workflow_dispatch:
 
-# 设置 GITHUB_TOKEN 权限以允许部署到 GitHub Pages
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# 仅允许一个并发部署，跳过正在运行与最新排队之间的运行
-# 但不会取消进行中的运行，以确保生产部署完成
 concurrency:
   group: "pages"
   cancel-in-progress: false
 
-# 默认使用 bash
 defaults:
   run:
     shell: bash
@@ -36,7 +29,7 @@ jobs:
       - name: 检出代码
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # 获取完整历史记录以支持 .GitInfo 和 .Lastmod
+          fetch-depth: 0
           submodules: recursive
       - name: 设置 Go 环境
         uses: actions/setup-go@v5
@@ -51,7 +44,6 @@ jobs:
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb
       - name: 使用 Hugo 构建
         env:
-          # 为 Hugo 模块提供最大兼容性
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
@@ -62,8 +54,16 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
+      - name: Deploy to my server
+        uses: burnett01/rsync-deployments@v9
+        with:
+          switches: -avzr --delete
+          path: public/
+          remote_path: /pages/blog
+          remote_host: ${{ secrets.SERVER_HOST }}
+          remote_user: ${{ secrets.SERVER_USER }}
+          remote_key: ${{ secrets.SERVER_SSH_KEY }}
 
-  # 部署任务
   deploy:
     environment:
       name: github-pages
