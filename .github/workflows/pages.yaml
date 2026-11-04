@@ -69,7 +69,7 @@ jobs:
           set net:max-retries 2
           open sftp://$SERVER_HOST
           user "$SERVER_USER" "$SERVER_PASSWORD"
-          mirror -R --delete --verbose ./public/ /pages/blog/
+          mirror -R --delete --verbose --parallel=10 ./public/ /pages/blog/
           bye
           EOF
 
