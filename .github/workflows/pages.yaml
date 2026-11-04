@@ -54,15 +54,20 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
-      - name: Deploy to my server
-        uses: burnett01/rsync-deployments@v9
-        with:
-          switches: -avzr --delete
-          path: public/
-          remote_path: /pages/blog
-          remote_host: ${{ secrets.SERVER_HOST }}
-          remote_user: ${{ secrets.SERVER_USER }}
-          remote_key: ${{ secrets.SERVER_SSH_KEY }}
+      - name: 部署到服务器
+        env:
+          SSHPASS: ${{ secrets.SERVER_PASSWORD }}
+          SERVER_HOST: ${{ secrets.SERVER_HOST }}
+          SERVER_USER: ${{ secrets.SERVER_USER }}
+          SERVER_PORT: ${{ secrets.SERVER_PORT }}
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y sshpass rsync
+
+          sshpass -e rsync -avzr --delete \
+            -e "ssh -p ${SERVER_PORT} -o StrictHostKeyChecking=no" \
+            public/ \
+            "${SERVER_USER}@${SERVER_HOST}:/pages/blog/"
 
   deploy:
     environment:
