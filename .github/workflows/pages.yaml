@@ -56,18 +56,21 @@ jobs:
           path: ./public
       - name: 部署到服务器
         env:
-          SSHPASS: ${{ secrets.SERVER_PASSWORD }}
           SERVER_HOST: ${{ secrets.SERVER_HOST }}
           SERVER_USER: ${{ secrets.SERVER_USER }}
+          SERVER_PASSWORD: ${{ secrets.SERVER_PASSWORD }}
           SERVER_PORT: ${{ secrets.SERVER_PORT }}
         run: |
           sudo apt-get update
-          sudo apt-get install -y sshpass rsync
+          sudo apt-get install -y lftp
 
-          sshpass -e rsync -avzr --delete \
-            -e "ssh -p ${SERVER_PORT} -o StrictHostKeyChecking=no" \
-            public/ \
-            "${SERVER_USER}@${SERVER_HOST}:/pages/blog/"
+          lftp -u "$SERVER_USER","$SERVER_PASSWORD" \
+            "sftp://$SERVER_HOST:$SERVER_PORT" <<EOF
+          set sftp:auto-confirm yes
+          set net:max-retries 2
+          mirror -R --delete --verbose ./public/ /pages/blog/
+          bye
+          EOF
 
   deploy:
     environment:
