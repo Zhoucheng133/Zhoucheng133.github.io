@@ -1,5 +1,5 @@
 ---
-title: Sponsor | 赞助
+title: 赞助
 aliases:
 - /donate
 - /donate/

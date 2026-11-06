@@ -1,5 +1,5 @@
 ---
-title: Development Docs | 开发文档
+title: 开发文档
 ---
 
 {{< cards >}}
